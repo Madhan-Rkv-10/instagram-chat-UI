@@ -33,7 +33,7 @@
     </ol>
     <h2>Demo</h2>
     <p>The app creates visually appealing chat bubbles. Below is a GIF showing the application's output:</p>
-    <img src="assets/demo.gif" alt="App Output" style="max-width: 100%; border: 1px solid #ddd; padding: 5px;">
+    <img src="output/demo.gif" alt="App Output" style="max-width: 100%; border: 1px solid #ddd; padding: 5px;">
     <h2>Customization</h2>
     <p>You can customize the chat bubble colors and messages by modifying:</p>
     <ul>

@@ -7,7 +7,6 @@ void main() {
   runApp(const App(home: ExampleGradientBubbles()));
 }
 
-@immutable
 class App extends StatelessWidget {
   const App({super.key, this.home});
 
@@ -24,7 +23,6 @@ class App extends StatelessWidget {
   }
 }
 
-@immutable
 class ExampleGradientBubbles extends StatefulWidget {
   const ExampleGradientBubbles({super.key});
 
@@ -69,7 +67,6 @@ class _ExampleGradientBubblesState extends State<ExampleGradientBubbles> {
   }
 }
 
-@immutable
 class MessageBubble extends StatelessWidget {
   const MessageBubble({
     super.key,
@@ -122,7 +119,6 @@ class MessageBubble extends StatelessWidget {
   }
 }
 
-@immutable
 class BubbleBackground extends StatelessWidget {
   const BubbleBackground({
     super.key,
@@ -190,7 +186,6 @@ class BubblePainter extends CustomPainter {
 
 enum MessageOwner { myself, other }
 
-@immutable
 class Message {
   const Message({
     required this.owner,
